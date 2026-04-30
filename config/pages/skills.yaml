@@ -1,0 +1,22 @@
+id: skills
+title: Skills
+template: grid
+content:
+  heading: "Capabilities"
+  description: "Recognition patterns that compose this project's skill set."
+  items:
+    - name: "failure-mode-diagnosis"
+      description: "See skills/failure-mode-diagnosis.md"
+      href: "https://github.com"
+    - name: "atlas-routing"
+      description: "See skills/atlas-routing.md"
+      href: "https://github.com"
+    - name: "global-fix-application"
+      description: "See skills/global-fix-application.md"
+      href: "https://github.com"
+    - name: "twin-atlas-inversion"
+      description: "See skills/twin-atlas-inversion.md"
+      href: "https://github.com"
+    - name: "grandma-clinic-translation"
+      description: "See skills/grandma-clinic-translation.md"
+      href: "https://github.com"

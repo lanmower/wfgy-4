@@ -1,0 +1,8 @@
+id: home
+title: Home
+template: hero
+content:
+  heading: "WFGY 4.0 — Problem Map & Governance"
+  subheading: "The 16-failure taxonomy, Atlas Router, Global Fix Map, Twin/Inverse Atlas."
+  cta_text: "Read the paper"
+  cta_href: "./paper.html"
