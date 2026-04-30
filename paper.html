@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The full paper for this extraction.">
+  <meta name="author" content="WFGY Extractions">
+  <meta name="keywords" content="wfgy, problemmap, llm, reasoning, governance">
+  <link rel="stylesheet" href="https://esm.sh/anentrypoint-design@latest/dist/247420.css">
+  <script type="module" src="https://esm.sh/anentrypoint-design@latest/dist/247420.js"></script>
+  <title>Paper — WFGY 4.0 — Problem Map & Governance</title>
+</head><body><nav class="navbar bg-base-100 border-b border-base-300 sticky top-0 z-50">
+  <div class="container mx-auto flex items-center justify-between px-4 py-3">
+    <a href="./index.html" class="text-xl font-bold">WFGY 4.0</a>
+    <div class="flex gap-2">
+      <a href="./index.html" class="btn btn-ghost btn-sm">Home</a><a href="./paper.html" class="btn btn-ghost btn-sm">Paper</a><a href="./skills.html" class="btn btn-ghost btn-sm">Skills</a><a href="./original.html" class="btn btn-ghost btn-sm">Original</a>
+    </div>
+  </div>
+</nav><section class="container mx-auto px-4 py-16 max-w-4xl">
+    <h1 class="text-4xl font-bold mb-4">Science paper</h1>
+    <p class="text-lg text-base-content/70 mb-10">The full paper for this extraction.</p>
+    <article class="prose prose-lg max-w-none"><h1>A Sixteen-Failure Taxonomy for Retrieval-Augmented and Agentic Systems</h1>
+
+<h2>Abstract</h2>
+<p>We present a closed taxonomy of sixteen failure modes that account for the overwhelming majority of observed defects in RAG, multi-agent orchestration, and long-context reasoning. The taxonomy is paired with an Atlas — a routing structure that maps each symptom to its diagnostic gate, and each gate to a Global Fix verified against worked examples. The Twin and Inverse Atlases close the loop by surfacing the residual mode the user has not yet named.</p>
+
+<h2>1. Why a Closed Taxonomy</h2>
+<p>Open-ended bug reports do not reduce. Closing the taxonomy turns the question from "what is wrong?" into "which of the sixteen?", and from "how do I fix it?" into "which Global Fix applies?" The closure is empirical: in three years of triage, every defect has decomposed into one or more of the sixteen.</p>
+
+<h2>2. The Sixteen Modes</h2>
+<p>Hallucination, Boundary Drift, Citation Mismatch, Chunk Collapse, Memory Leak, Agent Convergence, Multi-Frame Contradiction, Symbolic Logic Drift, Long-Context Decay, Multimodal Misalignment, Bootstrap Order Inversion, Creative Freeze, Bluffing, Context-Drift Spiral, Data-Contract Breach, Safety-Boundary Crossing.</p>
+
+<h2>3. The Atlas Router</h2>
+<p>The Atlas is a decision tree from observed symptom to gate. Gating tests confirm or refute, and on confirmation the corresponding Global Fix is dispatched. The routing structure itself is the artifact — it can be loaded into any sufficiently capable model and used directly.</p>
+
+<h2>4. Twin Atlas, Inverse Atlas</h2>
+<p>The Twin Atlas catches co-occurring modes that mask each other. The Inverse Atlas catches non-symptoms — behaviors that look like bugs but are the system working correctly under an unstated constraint. Together they eliminate the diagnostic blind spots of a flat taxonomy.</p>
+
+<h2>5. The Grandma Clinic</h2>
+<p>Every Global Fix is paired with a plain-language translation. A fix whose Grandma Clinic explanation does not survive a non-technical reader has not been understood by its author either.</p>
+
+<h2>6. Conclusion</h2>
+<p>Governance of agentic systems begins with naming. The Problem Map names exhaustively, routes precisely, and verifies plainly. It is the gate through which every other layer of the WFGY ecosystem must pass.</p>
+</article>
+  </section><footer class="bg-base-200 border-t border-base-300 py-10 mt-20">
+  <div class="container mx-auto px-4">
+    <p class="text-base-content/70">WFGY 4.0 — Problem Map & Governance — an extraction from the WFGY ecosystem.</p>
+    <div class="flex gap-4 mt-3 text-sm">
+      <a href="https://github.com/onestardao/WFGY" class="link link-hover">WFGY upstream</a>
+    </div>
+  </div>
+</footer></body></html>
